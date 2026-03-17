@@ -1,0 +1,54 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* Changed from auto-fill to 5 columns */
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+/* Tablets - 3 columns */
+@media (max-width: 1024px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+    }
+}
+
+/* Mobile - Just reduce columns, keep grid */
+@media (max-width: 768px) {
+    .product-list {
+        display: grid;
+        /* Keep as grid */
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns on mobile */
+        gap: 1rem;
+    }
+}
+
+.product-list::-webkit-scrollbar {
+    height: 6px;
+}
+
+.product-list::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.product-list::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #6B46C1, #4299E1);
+    border-radius: 10px;
+}
+
+.product-list>* {
+    flex: 0 0 280px;
+    /* Fixed width for swipeable cards */
+    scroll-snap-align: start;
+}
+
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .product-list>* {
+        flex: 0 0 240px;
+    }
+}
