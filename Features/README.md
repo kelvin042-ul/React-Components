@@ -1,4 +1,4 @@
-## React + Vite (JSX)
+USABLE CLEAN REACT COMPONENTS
 
 - **ProductCard.jsx:** This displays individual product name, image, price and Add to Cart function. Contains its CSS also
 
@@ -18,6 +18,7 @@
 
 ## FOR MORE INFORMATION AND CLARIFICATIONS
 
--**CONTACT ME ON WHATSAPP:** +2349037528459 (Kindly drop this simple message : " I need more clarification on this project")
+-**CONTACT ME ON WHATSAPP:** http://wa.me/2349037528459 
+(Kindly drop this simple message : " I need more clarification on this project")
 
 ## THANK YOU
